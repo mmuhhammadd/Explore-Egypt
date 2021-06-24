@@ -3,26 +3,36 @@ body {
     font-family: 'Roboto Mono', monospace;
 }
 .navbar {
-    margin: 1.5em 1em;
+    margin: .5em .5em;
+    padding: 1.5em .5em;
     margin-bottom: 4em;
     border-bottom: 2px solid rgba(53, 59, 72, 1.0);
 }
 .navbar-brand {
     font-family: 'Dela Gothic One', cursive;
     font-size: 1.5em;
-    padding: .5em;
+    padding: 0em;
 }
 
 @media only screen and (min-width: 768px) {
+    navbar {
+        margin: 1.5em 1em;
+    }
     .navbar-brand {
         font-size: 2.5em;
+        padding: .5em;
     }
     .nav-item {
         font-size: 1.20em;
     }
 }
+.navbar-toggler
+{
+    padding: 0 !important;
+    margin: 0 !important;
+    border: 0 !important;
 
-
+}
 .nav-item {
     font-size: 1em;
     background-color: rgba(130, 204, 221,.25) !important;
